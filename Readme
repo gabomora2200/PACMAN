@@ -1,0 +1,26 @@
+NEO PAC-MAN (C++)
+
+El siguiente programa cuenta con diversas funciones para la creacion de una replica del clasico videojuego PacMan. El juego cuenta con dos diferentes opciones de pantallas para jugar y una funcion para el puntaje maximo. 
+
+Para correr este programa es necesario instalar la biblioteca SFML << Simple and Fast MultiMedia Library >> ademas de libbost para el funcionamiento del score. 
+
+Para saber mas acerca de la instalacion de estas bibliotecas consultar el INSTALL.
+
+Para compilar el programa se creo un Makefile en el cual el target de build compila el codigo.
+Para correr el programa basta con escribir ./sfml-app o con usar el segundo target del Makefile run.
+
+Para ejecutar diferentes pruebas es necesario editar el codigo fuente en el archivo mapa2.cpp, se puede jugar con la velocidad del jugar y los fantasmas modificando el valor de la variable delay al inicio de la funcion  << juegoX >> o bien se pueden agregar mas fantasmas para aumentar la dificultal del juego modificando las instancias de la clase al inicio de la funcion antes mencionada.
+
+Para mas informacion acerca de las bibliotecas:
+
+https://www.sfml-dev.org/
+
+Los autores y propietarios del codigo son:
+
+
+Gabriel Araya Mora (B80525)
+Ignacio Montenegro Quesada (B85081)
+Andres Arias Campos (B80661)
+
+
+:D
